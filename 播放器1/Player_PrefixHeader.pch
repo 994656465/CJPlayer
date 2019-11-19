@@ -1,0 +1,37 @@
+
+//
+//  Player_PrefixHeader.pch
+//  播放器1
+//
+//  Created by dd luo on 2019/10/30.
+//  Copyright © 2019 dd luo. All rights reserved.
+//
+
+#ifndef Player_PrefixHeader_pch
+#define Player_PrefixHeader_pch
+
+#import <Masonry.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import "CJPlayerTool.h"
+
+#import <MJExtension.h>
+#import "musicModel.h"
+#import "UIView+MJExtension.h"
+#import "lrcModel.h"
+#import "CJLrcLabel.h"
+
+#import "CJSongLrcTool.h"
+
+#define SCREEN_FRAME [UIScreen mainScreen].bounds
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+// 获取RGB颜色
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Player_PrefixHeader_pch */

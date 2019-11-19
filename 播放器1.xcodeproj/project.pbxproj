@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A548CA8F236ADCA000EF5F0D /* CJPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A548CA8E236ADCA000EF5F0D /* CJPlayerTool.m */; };
+		A548CA92236AE51800EF5F0D /* musicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A548CA91236AE51800EF5F0D /* musicModel.m */; };
+		A5521A0C2369367600A02568 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A0B2369367600A02568 /* AppDelegate.m */; };
+		A5521A0F2369367600A02568 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A0E2369367600A02568 /* SceneDelegate.m */; };
+		A5521A122369367600A02568 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A112369367600A02568 /* ViewController.m */; };
+		A5521A152369367600A02568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5521A132369367600A02568 /* Main.storyboard */; };
+		A5521A172369367A00A02568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5521A162369367A00A02568 /* Assets.xcassets */; };
+		A5521A1A2369367A00A02568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5521A182369367A00A02568 /* LaunchScreen.storyboard */; };
+		A5521A1D2369367A00A02568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A1C2369367A00A02568 /* main.m */; };
+		A5521A272369367A00A02568 /* ___1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A262369367A00A02568 /* ___1Tests.m */; };
+		A5521A322369367A00A02568 /* ___1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5521A312369367A00A02568 /* ___1UITests.m */; };
+		A5521A56236939C500A02568 /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5521A3F236939C500A02568 /* mlist.plist */; };
+		A5521A57236939C500A02568 /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A41236939C500A02568 /* 月半小夜曲.lrc */; };
+		A5521A58236939C500A02568 /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A42236939C500A02568 /* 李克勤 - 月半小夜曲.mp3 */; };
+		A5521A59236939C500A02568 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5521A43236939C500A02568 /* buyao.wav */; };
+		A5521A5A236939C500A02568 /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A44236939C500A02568 /* I'm yours.lrc */; };
+		A5521A5B236939C500A02568 /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A45236939C500A02568 /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		A5521A5C236939C500A02568 /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A46236939C500A02568 /* xpg.jpg */; };
+		A5521A5D236939C500A02568 /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A47236939C500A02568 /* Owl City - The Saltwater Room.mp3 */; };
+		A5521A5E236939C500A02568 /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A48236939C500A02568 /* st.jpg */; };
+		A5521A5F236939C500A02568 /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A49236939C500A02568 /* Jason Mraz - I'm Yours.mp3 */; };
+		A5521A60236939C500A02568 /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4A236939C500A02568 /* jason.jpg */; };
+		A5521A61236939C500A02568 /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4B236939C500A02568 /* paomo.jpg */; };
+		A5521A62236939C500A02568 /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4C236939C500A02568 /* 稳稳的幸福.lrc */; };
+		A5521A63236939C500A02568 /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4D236939C500A02568 /* 小苹果.mp3 */; };
+		A5521A64236939C500A02568 /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4E236939C500A02568 /* The salt water room.lrc */; };
+		A5521A65236939C500A02568 /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5521A4F236939C500A02568 /* 张译 - 稳稳的幸福.mp3 */; };
+		A5521A66236939C500A02568 /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A50236939C500A02568 /* 小苹果.lrc */; };
+		A5521A67236939C500A02568 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5521A51236939C500A02568 /* test.wav */; };
+		A5521A68236939C500A02568 /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A52236939C500A02568 /* lamazhengzhuan.jpg */; };
+		A5521A69236939C500A02568 /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5521A53236939C500A02568 /* 李克勤.jpg */; };
+		A5521A6A236939C500A02568 /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A5521A54236939C500A02568 /* 泡沫.lrc */; };
+		A5521A6B236939C500A02568 /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5521A55236939C500A02568 /* chatcome.wav */; };
+		A5664462236FD6BE00185089 /* CJSongLrcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5664461236FD6BE00185089 /* CJSongLrcTool.m */; };
+		A5664465236FFC0900185089 /* lrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5664464236FFC0900185089 /* lrcModel.m */; };
+		A56E65492371184900659653 /* CJLrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A56E65482371184900659653 /* CJLrcLabel.m */; };
+		A5BB73BB236C33FB00F8BF03 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BB73B9236C33FA00F8BF03 /* UIView+MJExtension.m */; };
+		FA40B1EB1E95FCB67D7AF044 /* libPods-播放器1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C793E4A8EED4C386E7267CE4 /* libPods-播放器1.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5521A232369367A00A02568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55219FF2369367600A02568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5521A062369367600A02568;
+			remoteInfo = "播放器1";
+		};
+		A5521A2E2369367A00A02568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55219FF2369367600A02568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5521A062369367600A02568;
+			remoteInfo = "播放器1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78F629496B5F176008E0BEEE /* Pods-播放器1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-播放器1.release.xcconfig"; path = "Pods/Target Support Files/Pods-播放器1/Pods-播放器1.release.xcconfig"; sourceTree = "<group>"; };
+		99358ED1ED540B21DDB05D52 /* Pods-播放器1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-播放器1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-播放器1/Pods-播放器1.debug.xcconfig"; sourceTree = "<group>"; };
+		A548CA8D236ADCA000EF5F0D /* CJPlayerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJPlayerTool.h; sourceTree = "<group>"; };
+		A548CA8E236ADCA000EF5F0D /* CJPlayerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJPlayerTool.m; sourceTree = "<group>"; };
+		A548CA90236AE51800EF5F0D /* musicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = musicModel.h; sourceTree = "<group>"; };
+		A548CA91236AE51800EF5F0D /* musicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicModel.m; sourceTree = "<group>"; };
+		A5521A072369367600A02568 /* 播放器1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "播放器1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5521A0A2369367600A02568 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5521A0B2369367600A02568 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5521A0D2369367600A02568 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A5521A0E2369367600A02568 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A5521A102369367600A02568 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5521A112369367600A02568 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5521A142369367600A02568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5521A162369367A00A02568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5521A192369367A00A02568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5521A1B2369367A00A02568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5521A1C2369367A00A02568 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5521A222369367A00A02568 /* 播放器1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放器1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5521A262369367A00A02568 /* ___1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___1Tests.m"; sourceTree = "<group>"; };
+		A5521A282369367A00A02568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5521A2D2369367A00A02568 /* 播放器1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放器1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5521A312369367A00A02568 /* ___1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___1UITests.m"; sourceTree = "<group>"; };
+		A5521A332369367A00A02568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5521A3F236939C500A02568 /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		A5521A41236939C500A02568 /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		A5521A42236939C500A02568 /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		A5521A43236939C500A02568 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		A5521A44236939C500A02568 /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		A5521A45236939C500A02568 /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		A5521A46236939C500A02568 /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		A5521A47236939C500A02568 /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		A5521A48236939C500A02568 /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		A5521A49236939C500A02568 /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		A5521A4A236939C500A02568 /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		A5521A4B236939C500A02568 /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		A5521A4C236939C500A02568 /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		A5521A4D236939C500A02568 /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		A5521A4E236939C500A02568 /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		A5521A4F236939C500A02568 /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		A5521A50236939C500A02568 /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		A5521A51236939C500A02568 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		A5521A52236939C500A02568 /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		A5521A53236939C500A02568 /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		A5521A54236939C500A02568 /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		A5521A55236939C500A02568 /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		A5521A6C23696C5100A02568 /* Player_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player_PrefixHeader.pch; sourceTree = "<group>"; };
+		A5664460236FD6BE00185089 /* CJSongLrcTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJSongLrcTool.h; sourceTree = "<group>"; };
+		A5664461236FD6BE00185089 /* CJSongLrcTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSongLrcTool.m; sourceTree = "<group>"; };
+		A5664463236FFC0900185089 /* lrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lrcModel.h; sourceTree = "<group>"; };
+		A5664464236FFC0900185089 /* lrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lrcModel.m; sourceTree = "<group>"; };
+		A56E65472371184900659653 /* CJLrcLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJLrcLabel.h; sourceTree = "<group>"; };
+		A56E65482371184900659653 /* CJLrcLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLrcLabel.m; sourceTree = "<group>"; };
+		A5BB73B9236C33FA00F8BF03 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		A5BB73BA236C33FB00F8BF03 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		C793E4A8EED4C386E7267CE4 /* libPods-播放器1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-播放器1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5521A042369367600A02568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40B1EB1E95FCB67D7AF044 /* libPods-播放器1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A1F2369367A00A02568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A2A2369367A00A02568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E04C7A5FA264B42FAB24E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C793E4A8EED4C386E7267CE4 /* libPods-播放器1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55219FE2369367600A02568 = {
+			isa = PBXGroup;
+			children = (
+				A5521A092369367600A02568 /* 播放器1 */,
+				A5521A252369367A00A02568 /* 播放器1Tests */,
+				A5521A302369367A00A02568 /* 播放器1UITests */,
+				A5521A082369367600A02568 /* Products */,
+				A8F33AAE5736C67E83FBDAED /* Pods */,
+				1E04C7A5FA264B42FAB24E69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5521A082369367600A02568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5521A072369367600A02568 /* 播放器1.app */,
+				A5521A222369367A00A02568 /* 播放器1Tests.xctest */,
+				A5521A2D2369367A00A02568 /* 播放器1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5521A092369367600A02568 /* 播放器1 */ = {
+			isa = PBXGroup;
+			children = (
+				A5521A40236939C500A02568 /* Assets */,
+				A5521A3F236939C500A02568 /* mlist.plist */,
+				A5521A0A2369367600A02568 /* AppDelegate.h */,
+				A5521A0B2369367600A02568 /* AppDelegate.m */,
+				A5521A0D2369367600A02568 /* SceneDelegate.h */,
+				A5521A0E2369367600A02568 /* SceneDelegate.m */,
+				A5521A102369367600A02568 /* ViewController.h */,
+				A5521A112369367600A02568 /* ViewController.m */,
+				A5664460236FD6BE00185089 /* CJSongLrcTool.h */,
+				A5664461236FD6BE00185089 /* CJSongLrcTool.m */,
+				A5664463236FFC0900185089 /* lrcModel.h */,
+				A5664464236FFC0900185089 /* lrcModel.m */,
+				A56E65472371184900659653 /* CJLrcLabel.h */,
+				A56E65482371184900659653 /* CJLrcLabel.m */,
+				A548CA8D236ADCA000EF5F0D /* CJPlayerTool.h */,
+				A548CA8E236ADCA000EF5F0D /* CJPlayerTool.m */,
+				A548CA90236AE51800EF5F0D /* musicModel.h */,
+				A548CA91236AE51800EF5F0D /* musicModel.m */,
+				A5521A132369367600A02568 /* Main.storyboard */,
+				A5521A162369367A00A02568 /* Assets.xcassets */,
+				A5521A182369367A00A02568 /* LaunchScreen.storyboard */,
+				A5521A1B2369367A00A02568 /* Info.plist */,
+				A5521A1C2369367A00A02568 /* main.m */,
+				A5521A6C23696C5100A02568 /* Player_PrefixHeader.pch */,
+				A5BB73BA236C33FB00F8BF03 /* UIView+MJExtension.h */,
+				A5BB73B9236C33FA00F8BF03 /* UIView+MJExtension.m */,
+			);
+			path = "播放器1";
+			sourceTree = "<group>";
+		};
+		A5521A252369367A00A02568 /* 播放器1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5521A262369367A00A02568 /* ___1Tests.m */,
+				A5521A282369367A00A02568 /* Info.plist */,
+			);
+			path = "播放器1Tests";
+			sourceTree = "<group>";
+		};
+		A5521A302369367A00A02568 /* 播放器1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5521A312369367A00A02568 /* ___1UITests.m */,
+				A5521A332369367A00A02568 /* Info.plist */,
+			);
+			path = "播放器1UITests";
+			sourceTree = "<group>";
+		};
+		A5521A40236939C500A02568 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A5521A41236939C500A02568 /* 月半小夜曲.lrc */,
+				A5521A42236939C500A02568 /* 李克勤 - 月半小夜曲.mp3 */,
+				A5521A43236939C500A02568 /* buyao.wav */,
+				A5521A44236939C500A02568 /* I'm yours.lrc */,
+				A5521A45236939C500A02568 /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				A5521A46236939C500A02568 /* xpg.jpg */,
+				A5521A47236939C500A02568 /* Owl City - The Saltwater Room.mp3 */,
+				A5521A48236939C500A02568 /* st.jpg */,
+				A5521A49236939C500A02568 /* Jason Mraz - I'm Yours.mp3 */,
+				A5521A4A236939C500A02568 /* jason.jpg */,
+				A5521A4B236939C500A02568 /* paomo.jpg */,
+				A5521A4C236939C500A02568 /* 稳稳的幸福.lrc */,
+				A5521A4D236939C500A02568 /* 小苹果.mp3 */,
+				A5521A4E236939C500A02568 /* The salt water room.lrc */,
+				A5521A4F236939C500A02568 /* 张译 - 稳稳的幸福.mp3 */,
+				A5521A50236939C500A02568 /* 小苹果.lrc */,
+				A5521A51236939C500A02568 /* test.wav */,
+				A5521A52236939C500A02568 /* lamazhengzhuan.jpg */,
+				A5521A53236939C500A02568 /* 李克勤.jpg */,
+				A5521A54236939C500A02568 /* 泡沫.lrc */,
+				A5521A55236939C500A02568 /* chatcome.wav */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A8F33AAE5736C67E83FBDAED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99358ED1ED540B21DDB05D52 /* Pods-播放器1.debug.xcconfig */,
+				78F629496B5F176008E0BEEE /* Pods-播放器1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5521A062369367600A02568 /* 播放器1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5521A362369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1" */;
+			buildPhases = (
+				70CE59E591164C72381FC9EB /* [CP] Check Pods Manifest.lock */,
+				A5521A032369367600A02568 /* Sources */,
+				A5521A042369367600A02568 /* Frameworks */,
+				A5521A052369367600A02568 /* Resources */,
+				62DD370D52ED031D6AFB7B3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "播放器1";
+			productName = "播放器1";
+			productReference = A5521A072369367600A02568 /* 播放器1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5521A212369367A00A02568 /* 播放器1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5521A392369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1Tests" */;
+			buildPhases = (
+				A5521A1E2369367A00A02568 /* Sources */,
+				A5521A1F2369367A00A02568 /* Frameworks */,
+				A5521A202369367A00A02568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5521A242369367A00A02568 /* PBXTargetDependency */,
+			);
+			name = "播放器1Tests";
+			productName = "播放器1Tests";
+			productReference = A5521A222369367A00A02568 /* 播放器1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5521A2C2369367A00A02568 /* 播放器1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5521A3C2369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1UITests" */;
+			buildPhases = (
+				A5521A292369367A00A02568 /* Sources */,
+				A5521A2A2369367A00A02568 /* Frameworks */,
+				A5521A2B2369367A00A02568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5521A2F2369367A00A02568 /* PBXTargetDependency */,
+			);
+			name = "播放器1UITests";
+			productName = "播放器1UITests";
+			productReference = A5521A2D2369367A00A02568 /* 播放器1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55219FF2369367600A02568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "dd luo";
+				TargetAttributes = {
+					A5521A062369367600A02568 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A5521A212369367A00A02568 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A5521A062369367600A02568;
+					};
+					A5521A2C2369367A00A02568 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A5521A062369367600A02568;
+					};
+				};
+			};
+			buildConfigurationList = A5521A022369367600A02568 /* Build configuration list for PBXProject "播放器1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55219FE2369367600A02568;
+			productRefGroup = A5521A082369367600A02568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5521A062369367600A02568 /* 播放器1 */,
+				A5521A212369367A00A02568 /* 播放器1Tests */,
+				A5521A2C2369367A00A02568 /* 播放器1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5521A052369367600A02568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5521A5D236939C500A02568 /* Owl City - The Saltwater Room.mp3 in Resources */,
+				A5521A57236939C500A02568 /* 月半小夜曲.lrc in Resources */,
+				A5521A68236939C500A02568 /* lamazhengzhuan.jpg in Resources */,
+				A5521A66236939C500A02568 /* 小苹果.lrc in Resources */,
+				A5521A61236939C500A02568 /* paomo.jpg in Resources */,
+				A5521A69236939C500A02568 /* 李克勤.jpg in Resources */,
+				A5521A64236939C500A02568 /* The salt water room.lrc in Resources */,
+				A5521A63236939C500A02568 /* 小苹果.mp3 in Resources */,
+				A5521A59236939C500A02568 /* buyao.wav in Resources */,
+				A5521A6A236939C500A02568 /* 泡沫.lrc in Resources */,
+				A5521A60236939C500A02568 /* jason.jpg in Resources */,
+				A5521A1A2369367A00A02568 /* LaunchScreen.storyboard in Resources */,
+				A5521A5A236939C500A02568 /* I'm yours.lrc in Resources */,
+				A5521A5B236939C500A02568 /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				A5521A58236939C500A02568 /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				A5521A6B236939C500A02568 /* chatcome.wav in Resources */,
+				A5521A62236939C500A02568 /* 稳稳的幸福.lrc in Resources */,
+				A5521A5F236939C500A02568 /* Jason Mraz - I'm Yours.mp3 in Resources */,
+				A5521A172369367A00A02568 /* Assets.xcassets in Resources */,
+				A5521A5E236939C500A02568 /* st.jpg in Resources */,
+				A5521A56236939C500A02568 /* mlist.plist in Resources */,
+				A5521A152369367600A02568 /* Main.storyboard in Resources */,
+				A5521A67236939C500A02568 /* test.wav in Resources */,
+				A5521A5C236939C500A02568 /* xpg.jpg in Resources */,
+				A5521A65236939C500A02568 /* 张译 - 稳稳的幸福.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A202369367A00A02568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A2B2369367A00A02568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62DD370D52ED031D6AFB7B3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-播放器1/Pods-播放器1-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-播放器1/Pods-播放器1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70CE59E591164C72381FC9EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-播放器1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5521A032369367600A02568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548CA8F236ADCA000EF5F0D /* CJPlayerTool.m in Sources */,
+				A5664462236FD6BE00185089 /* CJSongLrcTool.m in Sources */,
+				A5521A122369367600A02568 /* ViewController.m in Sources */,
+				A5521A0C2369367600A02568 /* AppDelegate.m in Sources */,
+				A548CA92236AE51800EF5F0D /* musicModel.m in Sources */,
+				A5521A1D2369367A00A02568 /* main.m in Sources */,
+				A5521A0F2369367600A02568 /* SceneDelegate.m in Sources */,
+				A56E65492371184900659653 /* CJLrcLabel.m in Sources */,
+				A5BB73BB236C33FB00F8BF03 /* UIView+MJExtension.m in Sources */,
+				A5664465236FFC0900185089 /* lrcModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A1E2369367A00A02568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5521A272369367A00A02568 /* ___1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5521A292369367A00A02568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5521A322369367A00A02568 /* ___1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5521A242369367A00A02568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5521A062369367600A02568 /* 播放器1 */;
+			targetProxy = A5521A232369367A00A02568 /* PBXContainerItemProxy */;
+		};
+		A5521A2F2369367A00A02568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5521A062369367600A02568 /* 播放器1 */;
+			targetProxy = A5521A2E2369367A00A02568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5521A132369367600A02568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5521A142369367600A02568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5521A182369367A00A02568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5521A192369367A00A02568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5521A342369367A00A02568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5521A352369367A00A02568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5521A372369367A00A02568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99358ED1ED540B21DDB05D52 /* Pods-播放器1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/播放器1/Player_PrefixHeader.pch";
+				INFOPLIST_FILE = "播放器1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5521A382369367A00A02568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F629496B5F176008E0BEEE /* Pods-播放器1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/播放器1/Player_PrefixHeader.pch";
+				INFOPLIST_FILE = "播放器1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A5521A3A2369367A00A02568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				INFOPLIST_FILE = "播放器1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/播放器1.app/播放器1";
+			};
+			name = Debug;
+		};
+		A5521A3B2369367A00A02568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				INFOPLIST_FILE = "播放器1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/播放器1.app/播放器1";
+			};
+			name = Release;
+		};
+		A5521A3D2369367A00A02568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				INFOPLIST_FILE = "播放器1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "播放器1";
+			};
+			name = Debug;
+		};
+		A5521A3E2369367A00A02568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2MXU3UZ3S;
+				INFOPLIST_FILE = "播放器1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuyf.store.---1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "播放器1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5521A022369367600A02568 /* Build configuration list for PBXProject "播放器1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5521A342369367A00A02568 /* Debug */,
+				A5521A352369367A00A02568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5521A362369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5521A372369367A00A02568 /* Debug */,
+				A5521A382369367A00A02568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5521A392369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5521A3A2369367A00A02568 /* Debug */,
+				A5521A3B2369367A00A02568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5521A3C2369367A00A02568 /* Build configuration list for PBXNativeTarget "播放器1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5521A3D2369367A00A02568 /* Debug */,
+				A5521A3E2369367A00A02568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55219FF2369367600A02568 /* Project object */;
+}
